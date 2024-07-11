@@ -72,7 +72,7 @@ public class App {
         System.out.println(e1);
 
         double base , side;
-        Scanner scanner = new Scanner(System.in);
+        // Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter base : ");
         base = scanner.nextDouble();
