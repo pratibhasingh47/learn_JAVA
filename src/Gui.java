@@ -12,6 +12,6 @@ public class Gui {
 
 
         double height = Double.parseDouble(JOptionPane.showInputDialog("Enter your height"));
-        JOptionPane.showMessageDialog(null, "You age is "+ age);
+        JOptionPane.showMessageDialog(null, "You age is "+ height);
     }
 }
