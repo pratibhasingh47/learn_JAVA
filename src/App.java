@@ -54,5 +54,13 @@ public class App {
         System.out.println("Age is "+age);
         System.out.println("Fav food is "+food);
 
+        double friends = 12;
+        friends = friends+1;
+        friends--;
+        friends++;
+
+        friends = (double) friends/3;
+        System.out.println(friends);
+
     }
 }
