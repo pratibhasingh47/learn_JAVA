@@ -43,7 +43,16 @@ public class App {
         System.out.println("What is your name ?");
         String Namee = scanner.nextLine();
 
+        System.out.println("How old are you ?");
+        int age = scanner.nextInt();
+        scanner.nextLine();
+
+        System.out.println("What is your fav food ?");
+        String food = scanner.nextLine();
+
         System.out.println("Hello "+Namee);
+        System.out.println("Age is "+age);
+        System.out.println("Fav food is "+food);
 
     }
 }
