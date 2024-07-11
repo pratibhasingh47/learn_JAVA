@@ -38,5 +38,12 @@ public class App {
         System.out.println(X);
         System.out.println(U);
 
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("What is your name ?");
+        String Namee = scanner.nextLine();
+
+        System.out.println("Hello "+Namee);
+
     }
 }
