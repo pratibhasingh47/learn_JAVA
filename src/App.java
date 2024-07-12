@@ -84,6 +84,5 @@ public class App {
         System.out.println("The hypotenous is " + hypo);
 
         scanner.close();
-
     }
 }
