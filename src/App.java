@@ -147,61 +147,61 @@ public class App {
 
 
         // //LOGICAL OPERATOR
-        // int temperature = 25;
-        // if(temperature>30){
-        //     System.out.println("It is hot outside!");
-        // }
-        // else if(temperature>=20 && temperature<=30){
-        //     System.out.println("It's moderate");
-        // }
-        // else{
-        //     System.out.println("It is cold outside!");
-        // }
+        int temperature = 25;
+        if(temperature>30){
+            System.out.println("It is hot outside!");
+        }
+        else if(temperature>=20 && temperature<=30){
+            System.out.println("It's moderate");
+        }
+        else{
+            System.out.println("It is cold outside!");
+        }
 
-        // Scanner scanner = new Scanner(System.in);
-        // System.out.println("You are playing a game ! press q or Q to quit");
-        // String response = scanner.next();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("You are playing a game ! press q or Q to quit");
+        String response = scanner.next();
 
-        // if(response.equals("q") || response.equals("Q ")){
-        //     System.out.println("You quit the game");
-        // }
-        // else{
-        //     System.out.println("You are still playing the game...");
-        // }
+        if(response.equals("q") || response.equals("Q ")){
+            System.out.println("You quit the game");
+        }
+        else{
+            System.out.println("You are still playing the game...");
+        }
 
 
         // LOOP
-        // Scanner scanner = new Scanner(System.in);
-        // String name = "";
+        Scanner scanner = new Scanner(System.in);
+        String name = "";
 
-        // while(name.isBlank()){
-        //     System.out.print("Enter your name : ");
-        //     name = scanner.nextLine();
-        // }
+        while(name.isBlank()){
+            System.out.print("Enter your name : ");
+            name = scanner.nextLine();
+        }
 
-        // System.out.println("Hello "+name);
+        System.out.println("Hello "+name);
 
-        // for(int i = 0; i<=10 ; i++ ){
-        //     System.out.println("The no. is "+i);
-        // }
+        for(int i = 0; i<=10 ; i++ ){
+            System.out.println("The no. is "+i);
+        }
 
-        // int rows , columns;
-        // String symbols = "";
+        int rows , columns;
+        String symbols = "";
 
-        // System.out.println("Enter # of rows : ");
-        // rows = scanner.nextInt();
-        // System.out.println("Enter # of columns : ");
-        // columns = scanner.nextInt();
+        System.out.println("Enter # of rows : ");
+        rows = scanner.nextInt();
+        System.out.println("Enter # of columns : ");
+        columns = scanner.nextInt();
 
-        // System.out.println("Enter symbol to use : ");
-        // symbols = scanner.next();
+        System.out.println("Enter symbol to use : ");
+        symbols = scanner.next();
 
-        // for(int i = 1;i<= rows ; i++){
-        //     System.out.println();
-        //     for(int j = 1;j<=columns;j++){
-        //         System.out.print(symbols);
-        //     }
-        // }
+        for(int i = 1;i<= rows ; i++){
+            System.out.println();
+            for(int j = 1;j<=columns;j++){
+                System.out.print(symbols);
+            }
+        }
 
 
 
