@@ -88,17 +88,17 @@ public class App {
 
 
         // //Random Variable
-        // Random random = new Random();
+        Random random = new Random();
 
-        // int i = random.nextInt();
-        // int i = random.nextInt(6);
-        // double d = random.nextDouble();
-        // boolean b =random.nextBoolean();
-        // System.out.println(i);
-        // System.out.println(d);
-        // System.out.println(b);
+        int i = random.nextInt();
+        int i = random.nextInt(6);
+        double d = random.nextDouble();
+        boolean b =random.nextBoolean();
+        System.out.println(i);
+        System.out.println(d);
+        System.out.println(b);
 
-        // scanner.close();
+        scanner.close();
 
         //IF STATEMENTS
         int agee = 20;
