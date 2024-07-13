@@ -142,5 +142,29 @@ public class App {
                 System.out.println("Invalid day options");
                 break;
         }
+
+
+        //LOGICAL OPERATOR
+        int temperature = 25;
+        if(temperature>30){
+            System.out.println("It is hot outside!");
+        }
+        else if(temperature>=20 && temperature<=30){
+            System.out.println("It's moderate");
+        }
+        else{
+            System.out.println("It is cold outside!");
+        }
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("You are playing a game ! press q or Q to quit");
+        String response = scanner.next();
+
+        if(response.equals("q") || response.equals("Q")){
+            System.out.println("You quit the game");
+        }
+        else{
+            System.out.println("You are still playing the game...");
+        }
     }
 }
