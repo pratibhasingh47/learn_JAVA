@@ -101,17 +101,17 @@ public class App {
         // scanner.close();
 
         //IF STATEMENTS
-        // int agee = 20;
+        int agee = 20;
 
-        // if( agee >= 18){
-        //     System.out.println("You are adult!");
-        // }
-        // else if(agee >= 75){
-        //     System.out.println("You are old citizens!");
-        // }
-        // else{
-        //     System.out.println("You are not adult!");
-        // }
+        if( agee >= 18){
+            System.out.println("You are adult!");
+        }
+        else if(agee >= 75){
+            System.out.println("You are old citizens!");
+        }
+        else{
+            System.out.println("You are not adult!");
+        }
 
         
         // //SWITCH
