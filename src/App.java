@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.jar.Attributes.Name;
 import java.util.ArrayList;
 import java.util.Random;
-
+import java.util.*;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -302,6 +302,28 @@ public class App {
             System.out.println(food.get(i));
         }
 
-        
+        ArrayList<ArrayList<String>> groceryList = new ArrayList<>();
+        ArrayList<String> bakeryList = new ArrayList<>();
+        bakeryList.add("pasta");
+        bakeryList.add("garlic bread");
+        bakeryList.add("donuts");
+
+        ArrayList<String> productList = new ArrayList<>();
+        productList.add("tomato");
+        productList.add(" bread");
+        productList.add("pepper");
+
+        ArrayList<String> drinkList = new ArrayList<>();
+        drinkList.add("soda");
+        drinkList.add(" cola");
+        drinkList.add("milka");
+
+        groceryList.add(bakeryList);
+        groceryList.add(productList);
+        groceryList.add(drinkList);
+
+        System.out.println(groceryList);
+        System.out.println(groceryList.get(0));
+        System.out.println(groceryList.get(0).get(0));
     }
 }
