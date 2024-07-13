@@ -75,7 +75,7 @@ public class App {
         System.out.println(e1);
 
         double base , side;
-        Scanner scanner = new Scanner(System.in);
+        // Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter base : ");
         base = scanner.nextDouble();
@@ -91,7 +91,7 @@ public class App {
         Random random = new Random();
 
         int i = random.nextInt();
-        int i = random.nextInt(6);
+        int i1 = random.nextInt(6);
         double d = random.nextDouble();
         boolean b =random.nextBoolean();
         System.out.println(i);
@@ -158,7 +158,7 @@ public class App {
             System.out.println("It is cold outside!");
         }
 
-        Scanner scanner = new Scanner(System.in);
+        // Scanner scanner = new Scanner(System.in);
         System.out.println("You are playing a game ! press q or Q to quit");
         String response = scanner.next();
 
@@ -171,12 +171,12 @@ public class App {
 
 
         // LOOP
-        Scanner scanner = new Scanner(System.in);
-        String name = "";
+        // Scanner scanner = new Scanner(System.in);
+        String namee = "";
 
         while(name.isBlank()){
             System.out.print("Enter your name : ");
-            name = scanner.nextLine();
+            namee = scanner.nextLine();
         }
 
         System.out.println("Hello "+name);
