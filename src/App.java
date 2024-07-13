@@ -1,5 +1,6 @@
 import java.util.Scanner;
 import java.util.jar.Attributes.Name;
+import java.util.ArrayList;
 import java.util.Random;
 
 
@@ -284,5 +285,23 @@ public class App {
             System.out.println("This is true");
         }
 
+
+        //ARRAYLIST
+
+        ArrayList<String> food = new ArrayList<String>();
+
+        food.add("pizza");
+        food.add("burger");
+        food.add("dosa");
+
+        food.set(0, "idli");
+        food.remove(2);
+        food.clear();
+
+        for(int i = 0 ; i <food.size(); i++){
+            System.out.println(food.get(i));
+        }
+
+        
     }
 }
