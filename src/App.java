@@ -288,42 +288,55 @@ public class App {
 
         //ARRAYLIST
 
-        ArrayList<String> food = new ArrayList<String>();
+        // ArrayList<String> food = new ArrayList<String>();
 
-        food.add("pizza");
-        food.add("burger");
-        food.add("dosa");
+        // food.add("pizza");
+        // food.add("burger");
+        // food.add("dosa");
 
-        food.set(0, "idli");
-        food.remove(2);
-        food.clear();
+        // food.set(0, "idli");
+        // food.remove(2);
+        // food.clear();
 
-        for(int i = 0 ; i <food.size(); i++){
-            System.out.println(food.get(i));
+        // for(int i = 0 ; i <food.size(); i++){
+        //     System.out.println(food.get(i));
+        // }
+
+        // ArrayList<ArrayList<String>> groceryList = new ArrayList<>();
+        // ArrayList<String> bakeryList = new ArrayList<>();
+        // bakeryList.add("pasta");
+        // bakeryList.add("garlic bread");
+        // bakeryList.add("donuts");
+
+        // ArrayList<String> productList = new ArrayList<>();
+        // productList.add("tomato");
+        // productList.add(" bread");
+        // productList.add("pepper");
+
+        // ArrayList<String> drinkList = new ArrayList<>();
+        // drinkList.add("soda");
+        // drinkList.add(" cola");
+        // drinkList.add("milka");
+
+        // groceryList.add(bakeryList);
+        // groceryList.add(productList);
+        // groceryList.add(drinkList);
+
+        // System.out.println(groceryList);
+        // System.out.println(groceryList.get(0));
+        // System.out.println(groceryList.get(0).get(0));
+
+
+        String[] animals = {"cat","dog","rat","bird"};
+        ArrayList<String> Animals = new ArrayList<String>();
+
+        Animals.add("A");
+        Animals.add("B");
+        Animals.add("C");
+        Animals.add("D");
+
+        for(String i : Animals){
+            System.out.println(i);
         }
-
-        ArrayList<ArrayList<String>> groceryList = new ArrayList<>();
-        ArrayList<String> bakeryList = new ArrayList<>();
-        bakeryList.add("pasta");
-        bakeryList.add("garlic bread");
-        bakeryList.add("donuts");
-
-        ArrayList<String> productList = new ArrayList<>();
-        productList.add("tomato");
-        productList.add(" bread");
-        productList.add("pepper");
-
-        ArrayList<String> drinkList = new ArrayList<>();
-        drinkList.add("soda");
-        drinkList.add(" cola");
-        drinkList.add("milka");
-
-        groceryList.add(bakeryList);
-        groceryList.add(productList);
-        groceryList.add(drinkList);
-
-        System.out.println(groceryList);
-        System.out.println(groceryList.get(0));
-        System.out.println(groceryList.get(0).get(0));
     }
 }
