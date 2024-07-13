@@ -99,72 +99,90 @@ public class App {
         // scanner.close();
 
         //IF STATEMENTS
-        int agee = 20;
+        // int agee = 20;
 
-        if( agee >= 18){
-            System.out.println("You are adult!");
-        }
-        else if(agee >= 75){
-            System.out.println("You are old citizens!");
-        }
-        else{
-            System.out.println("You are not adult!");
-        }
+        // if( agee >= 18){
+        //     System.out.println("You are adult!");
+        // }
+        // else if(agee >= 75){
+        //     System.out.println("You are old citizens!");
+        // }
+        // else{
+        //     System.out.println("You are not adult!");
+        // }
 
         
-        //SWITCH
-        String day = "Friday";
+        // //SWITCH
+        // String day = "Friday";
 
-        switch (day) {
-            case "Sunday":
-                System.out.println("Today is Sunday");
-                break;
-            case "Monday":
-                System.out.println("Today is Monday");
-                break;
-            case "Tuesday":
-                System.out.println("Today is Tuesday");
-                break;
-            case "Wednesday":
-                System.out.println("Today is Wednesday");
-                break;
-            case "Thursday":
-                System.out.println("Today is Thursday");
-                break;
-            case "Friday":
-                System.out.println("Today is Friday");
-                break;
-            case "Saturday":
-                System.out.println("Today is Saturday");
-                break;
+        // switch (day) {
+        //     case "Sunday":
+        //         System.out.println("Today is Sunday");
+        //         break;
+        //     case "Monday":
+        //         System.out.println("Today is Monday");
+        //         break;
+        //     case "Tuesday":
+        //         System.out.println("Today is Tuesday");
+        //         break;
+        //     case "Wednesday":
+        //         System.out.println("Today is Wednesday");
+        //         break;
+        //     case "Thursday":
+        //         System.out.println("Today is Thursday");
+        //         break;
+        //     case "Friday":
+        //         System.out.println("Today is Friday");
+        //         break;
+        //     case "Saturday":
+        //         System.out.println("Today is Saturday");
+        //         break;
         
-            default:
-                System.out.println("Invalid day options");
-                break;
-        }
+        //     default:
+        //         System.out.println("Invalid day options");
+        //         break;
+        // }
 
 
-        //LOGICAL OPERATOR
-        int temperature = 25;
-        if(temperature>30){
-            System.out.println("It is hot outside!");
-        }
-        else if(temperature>=20 && temperature<=30){
-            System.out.println("It's moderate");
-        }
-        else{
-            System.out.println("It is cold outside!");
-        }
+        // //LOGICAL OPERATOR
+        // int temperature = 25;
+        // if(temperature>30){
+        //     System.out.println("It is hot outside!");
+        // }
+        // else if(temperature>=20 && temperature<=30){
+        //     System.out.println("It's moderate");
+        // }
+        // else{
+        //     System.out.println("It is cold outside!");
+        // }
 
+        // Scanner scanner = new Scanner(System.in);
+        // System.out.println("You are playing a game ! press q or Q to quit");
+        // String response = scanner.next();
+
+        // if(response.equals("q") || response.equals("Q ")){
+        //     System.out.println("You quit the game");
+        // }
+        // else{
+        //     System.out.println("You are still playing the game...");
+        // }
+
+
+        // LOOP
         Scanner scanner = new Scanner(System.in);
-        System.out.println("You are playing a game ! press q or Q to quit");
-        String response = scanner.next();
+        String name = "";
 
-        if(response.equals("q") || response.equals("Q")){
-            System.out.println("You quit the game");
+        while(name.isBlank()){
+            System.out.print("Enter your name : ");
+            name = scanner.nextLine();
         }
-        else{
-            System.out.println("You are still playing the game...");
+
+        System.out.println("Hello "+name);
+
+        for(int i = 0; i<=10 ; i++ ){
+            System.out.println("The no. is "+i);
         }
+
+
     }
 }
