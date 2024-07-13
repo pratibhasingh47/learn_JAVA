@@ -208,70 +208,70 @@ public class App {
 
 
         //ARRAYS
-        // String[] cars = {"Camaro" , "Corvette" ,"Tesla"};
-        // cars[0] = "Mustang";
+        String[] cars = {"Camaro" , "Corvette" ,"Tesla"};
+        cars[0] = "Mustang";
 
-        // System.out.println(cars[0]);
-        // System.out.println(cars[1]);
-        // System.out.println(cars[2]);
+        System.out.println(cars[0]);
+        System.out.println(cars[1]);
+        System.out.println(cars[2]);
 
-        // String[] car = new String[3];
-        // car[0] = "C";
-        // car[1] = "A";
-        // car[2] = "B";
+        String[] car = new String[3];
+        car[0] = "C";
+        car[1] = "A";
+        car[2] = "B";
 
-        // System.out.println(car[0]);
-        // System.out.println(car[1]);
-        // System.out.println(car[2]);
+        System.out.println(car[0]);
+        System.out.println(car[1]);
+        System.out.println(car[2]);
 
-        // for(int i = 0; i <3 ; i++){
-        //     System.out.println(car[i]);
-        //     System.out.println(cars[i]);
-        // }
-
-
-        // String [][] CARS = new String[3][3];
-        // CARS[0][0] = "A";
-        // CARS[0][1] = "B";
-        // CARS[0][2] = "C";
-        // CARS[1][0] = "D";
-        // CARS[1][1] = "E";
-        // CARS[1][2] = "F";
-        // CARS[2][0] = "G";
-        // CARS[2][1] = "H";
-        // CARS[2][2] = "I";
-
-        // for(int i =0 ; i <CARS.length ; i++){
-        //     System.out.println();
-        //     for(int j = 0 ; j<CARS.length ;j++){
-        //         System.out.print(CARS[i][j] + " ");
-        //     }
-        // }
-
-        // String NAME = "    Broooooo     ";
-
-        // boolean result = NAME.equals("Bro");
-        // boolean result1 = NAME.equalsIgnoreCase("bro");
-        // int result2 = NAME.length();
-        // char result3 = NAME.charAt(1);
-        // int result4 = NAME.indexOf("B");
-        // boolean result5 = NAME.isEmpty();
-        // String result6 = NAME.toUpperCase();
-        // String result7 = NAME.toLowerCase();
-        // String result8 = NAME.trim();
-        // String result9 = NAME.replace('o', 'a');
+        for(int i = 0; i <3 ; i++){
+            System.out.println(car[i]);
+            System.out.println(cars[i]);
+        }
 
 
-        // System.out.println(result);
-        // System.out.println(result1);
-        // System.out.println(result2);
-        // System.out.println(result3);
-        // System.out.println(result4);
-        // System.out.println(result5);
-        // System.out.println(result6);
-        // System.out.println(result7);
-        // System.out.println(result8);
-        // System.out.println(result9 );
+        String [][] CARS = new String[3][3];
+        CARS[0][0] = "A";
+        CARS[0][1] = "B";
+        CARS[0][2] = "C";
+        CARS[1][0] = "D";
+        CARS[1][1] = "E";
+        CARS[1][2] = "F";
+        CARS[2][0] = "G";
+        CARS[2][1] = "H";
+        CARS[2][2] = "I";
+
+        for(int i =0 ; i <CARS.length ; i++){
+            System.out.println();
+            for(int j = 0 ; j<CARS.length ;j++){
+                System.out.print(CARS[i][j] + " ");
+            }
+        }
+
+        String NAME = "    Broooooo     ";
+
+        boolean result = NAME.equals("Bro");
+        boolean result1 = NAME.equalsIgnoreCase("bro");
+        int result2 = NAME.length();
+        char result3 = NAME.charAt(1);
+        int result4 = NAME.indexOf("B");
+        boolean result5 = NAME.isEmpty();
+        String result6 = NAME.toUpperCase();
+        String result7 = NAME.toLowerCase();
+        String result8 = NAME.trim();
+        String result9 = NAME.replace('o', 'a');
+
+
+        System.out.println(result);
+        System.out.println(result1);
+        System.out.println(result2);
+        System.out.println(result3);
+        System.out.println(result4);
+        System.out.println(result5);
+        System.out.println(result6);
+        System.out.println(result7);
+        System.out.println(result8);
+        System.out.println(result9 );
 
 
         //WRAPPER CLASS
@@ -286,45 +286,45 @@ public class App {
         }
 
 
-        //ARRAYLIST
+        // ARRAYLIST
 
-        // ArrayList<String> food = new ArrayList<String>();
+        ArrayList<String> food = new ArrayList<String>();
 
-        // food.add("pizza");
-        // food.add("burger");
-        // food.add("dosa");
+        food.add("pizza");
+        food.add("burger");
+        food.add("dosa");
 
-        // food.set(0, "idli");
-        // food.remove(2);
-        // food.clear();
+        food.set(0, "idli");
+        food.remove(2);
+        food.clear();
 
-        // for(int i = 0 ; i <food.size(); i++){
-        //     System.out.println(food.get(i));
-        // }
+        for(int i = 0 ; i <food.size(); i++){
+            System.out.println(food.get(i));
+        }
 
-        // ArrayList<ArrayList<String>> groceryList = new ArrayList<>();
-        // ArrayList<String> bakeryList = new ArrayList<>();
-        // bakeryList.add("pasta");
-        // bakeryList.add("garlic bread");
-        // bakeryList.add("donuts");
+        ArrayList<ArrayList<String>> groceryList = new ArrayList<>();
+        ArrayList<String> bakeryList = new ArrayList<>();
+        bakeryList.add("pasta");
+        bakeryList.add("garlic bread");
+        bakeryList.add("donuts");
 
-        // ArrayList<String> productList = new ArrayList<>();
-        // productList.add("tomato");
-        // productList.add(" bread");
-        // productList.add("pepper");
+        ArrayList<String> productList = new ArrayList<>();
+        productList.add("tomato");
+        productList.add(" bread");
+        productList.add("pepper");
 
-        // ArrayList<String> drinkList = new ArrayList<>();
-        // drinkList.add("soda");
-        // drinkList.add(" cola");
-        // drinkList.add("milka");
+        ArrayList<String> drinkList = new ArrayList<>();
+        drinkList.add("soda");
+        drinkList.add(" cola");
+        drinkList.add("milka");
 
-        // groceryList.add(bakeryList);
-        // groceryList.add(productList);
-        // groceryList.add(drinkList);
+        groceryList.add(bakeryList);
+        groceryList.add(productList);
+        groceryList.add(drinkList);
 
-        // System.out.println(groceryList);
-        // System.out.println(groceryList.get(0));
-        // System.out.println(groceryList.get(0).get(0));
+        System.out.println(groceryList);
+        System.out.println(groceryList.get(0));
+        System.out.println(groceryList.get(0).get(0));
 
 
         String[] animals = {"cat","dog","rat","bird"};
