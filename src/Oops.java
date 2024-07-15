@@ -73,6 +73,13 @@ public class Oops {
         System.out.println(Pizza.sauce);
         System.out.println(Pizza.toppings);
         System.out.println(Pizza.cheese);
+
+        Car car = new Car();
+
+        System.out.println(car.make);
+        System.out.println(car.color);
+        System.out.println(car.model);
+        System.out.println(car.price);
     }
 
 
@@ -81,7 +88,7 @@ public class Oops {
 
 
 
-    
+
 
     static void hello(String n , int x){
         System.out.println("Hello Java !");
