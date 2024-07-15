@@ -76,6 +76,8 @@ public class Oops {
 
         Car car = new Car();
 
+        System.err.println(car.toString());
+
         System.out.println(car.make);
         System.out.println(car.color);
         System.out.println(car.model);
