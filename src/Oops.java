@@ -110,11 +110,14 @@ public class Oops {
         // garage.park(car1);
         // garage.park(car2);
 
-        Friend friend1 = new Friend("f1");
-        Friend friend2 = new Friend("f2");
-        Friend friend3 = new Friend("f3");
+        // Friend friend1 = new Friend("f1");
+        // Friend friend2 = new Friend("f2");
+        // Friend friend3 = new Friend("f3");
 
-        System.out.println(Friend.noOfFriends);
+        // System.out.println(Friend.noOfFriends);
+
+        // Friend.display();
+        // Math.round(0);
 
     }
 
