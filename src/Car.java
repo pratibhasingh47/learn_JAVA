@@ -21,7 +21,7 @@ public class Car extends Vehicle{
         return myString;
     }
 
-    Car(String name){
-        this.name = name;
-    }
+    // Car(String name){
+    //     this.name = name;
+    // }
 }

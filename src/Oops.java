@@ -119,6 +119,25 @@ public class Oops {
         // Friend.display();
         // Math.round(0);
 
+        // Car car = new Car();
+        // car.go();
+        // Bicycle bike = new Bicycle();
+        // bike.stop();
+        // System.out.println(bike.paddles);
+
+        // Animal animal = new Animal();
+        // animal.speak();
+        // Dog dog = new Dog();
+        // dog.speak();
+
+        Hero hero = new Hero("Batman" , 42,"@@");
+        Hero hero2 = new Hero("superman" , 32,"##@");
+
+        System.out.println(hero.name);
+        System.out.println(hero.Power);
+        System.out.println(hero.age);
+
+
     }
 
 
