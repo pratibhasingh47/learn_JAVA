@@ -137,6 +137,10 @@ public class Oops {
         System.out.println(hero.Power);
         System.out.println(hero.age);
 
+        System.out.println(hero2.name);
+        System.out.println(hero2.Power);
+        System.out.println(hero2.age);
+
 
     }
 
