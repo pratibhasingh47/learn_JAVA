@@ -6,6 +6,8 @@ public class Car{
     String color = "blue";
     double price = 50000.00;
 
+    String name;
+
     void drive(){
         System.out.println("You are driving the car");
     }
@@ -17,5 +19,9 @@ public class Car{
     public String toString(){
         String myString = make + "\n" + model + "\n" + color;
         return myString;
+    }
+
+    Car(String name){
+        this.name = name;
     }
 }
