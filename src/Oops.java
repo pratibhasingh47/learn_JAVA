@@ -66,22 +66,44 @@ public class Oops {
 
         // diceRoller dc = new diceRoller();
 
-        pizza Pizza = new pizza("thin crust","tomato","mozzerella","jalpaneo");
+        // pizza Pizza = new pizza("thin crust","tomato","mozzerella","jalpaneo");
 
-        System.out.println("Here are the ingrediants of pizza : ");
-        System.out.println(Pizza.bread);
-        System.out.println(Pizza.sauce);
-        System.out.println(Pizza.toppings);
-        System.out.println(Pizza.cheese);
+        // System.out.println("Here are the ingrediants of pizza : ");
+        // System.out.println(Pizza.bread);
+        // System.out.println(Pizza.sauce);
+        // System.out.println(Pizza.toppings);
+        // System.out.println(Pizza.cheese);
 
-        Car car = new Car();
+        // Car car = new Car();
 
-        System.err.println(car.toString());
+        // System.err.println(car.toString()); //explicit
+        // System.out.println(car); //implicitly
 
-        System.out.println(car.make);
-        System.out.println(car.color);
-        System.out.println(car.model);
-        System.out.println(car.price);
+        // System.out.println(car.make);
+        // System.out.println(car.color);
+        // System.out.println(car.model);
+        // System.out.println(car.price);
+
+        // int [] numbers = new int[3];
+        // char[] characters = new char[10];
+
+        // Food[] refri = new Food[3];
+
+        // Food food1 = new Food("pizza");
+        // Food food2 = new Food("food2");
+        // Food food3 = new Food("food3");
+
+        // // Food [] refri = {food1,food2,food3};
+
+        // refri[0] = food1;
+        // refri[1] = food2;
+        // refri[2] = food3;
+
+        // System.out.println(refri[0].name);
+        // System.out.println(refri[1].name);
+        // System.out.println(refri[2].name);
+
+        
     }
 
 
