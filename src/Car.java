@@ -16,6 +16,10 @@ public class Car extends Vehicle{
         System.out.println("You step on the brake");
     }
 
+    void go(){
+        System.out.println("Driving...");
+    }
+
     public String toString(){
         String myString = make + "\n" + model + "\n" + color;
         return myString;
