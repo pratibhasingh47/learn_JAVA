@@ -196,22 +196,22 @@ public class Oops {
 
         Scanner scanner = new Scanner(System.in);
 
-        // Animal animal ;
-        // System.out.println("What animal do you want");
-        // System.out.println("(1=dog) or (2=cat):");
-        // int ch = scanner.nextInt();
-        // if(ch ==1){
-        //     animal = new Dog();
-        //     animal.speak();
-        // }
-        // else if(ch ==2){
-        //     animal = new Cat();
-        //     animal.speak();
-        // }
-        // else{
-        //     animal = new Animal();
-        //     animal.speak();
-        // }
+        Animal animal ;
+        System.out.println("What animal do you want");
+        System.out.println("(1=dog) or (2=cat):");
+        int ch = scanner.nextInt();
+        if(ch ==1){
+            animal = new Dog();
+            animal.speak();
+        }
+        else if(ch ==2){
+            animal = new Cat();
+            animal.speak();
+        }
+        else{
+            animal = new Animal();
+            animal.speak();
+        }
 
         try{
 
