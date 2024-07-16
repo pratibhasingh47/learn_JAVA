@@ -171,15 +171,15 @@ public class Oops {
         // System.out.println(gadi2.getModel());
         // System.out.println(gadi2.getYear());
 
-        // Rabbit rabbit = new Rabbit();
-        // rabbit.flee();
+        Rabbit rabbit = new Rabbit();
+        rabbit.flee();
 
-        // Hawl hawk = new Hawl();
-        // hawk.hunt();
+        Hawl hawk = new Hawl();
+        hawk.hunt();
 
-        // fish Fish  = new fish();
-        // Fish.hunt();
-        // Fish.flee();
+        fish Fish  = new fish();
+        Fish.hunt();
+        Fish.flee();
 
         Car car = new Car();
         Bicycle bicycle = new Bicycle();
