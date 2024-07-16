@@ -190,9 +190,9 @@ public class Oops {
         // bicycle.go();
         // boat.go();
 
-        // for(Vehicle x : racers){
-        //     x.go();
-        // }
+        for(Vehicle x : racers){
+            x.go();
+        }
 
         Scanner scanner = new Scanner(System.in);
 
