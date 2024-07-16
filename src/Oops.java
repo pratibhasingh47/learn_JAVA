@@ -155,21 +155,21 @@ public class Oops {
         // System.out.println(gadi.getModel());
         // System.out.println(gadi.getYear());
 
-        // Car2 gadi1 = new Car2("Mustang", "Camero", 2021);
-        // Car2 gadi2 = new Car2("Swift", "Camero", 2024);
+        Car2 gadi1 = new Car2("Mustang", "Camero", 2021);
+        Car2 gadi2 = new Car2("Swift", "Camero", 2024);
 
-        // gadi2.copy(gadi1);
+        gadi2.copy(gadi1);
 
-        // System.out.println(gadi1);
-        // System.out.println(gadi2);
+        System.out.println(gadi1);
+        System.out.println(gadi2);
 
-        // System.out.println(gadi1.getMake());
-        // System.out.println(gadi1.getModel());
-        // System.out.println(gadi1.getYear());
+        System.out.println(gadi1.getMake());
+        System.out.println(gadi1.getModel());
+        System.out.println(gadi1.getYear());
 
-        // System.out.println(gadi2.getMake());
-        // System.out.println(gadi2.getModel());
-        // System.out.println(gadi2.getYear());
+        System.out.println(gadi2.getMake());
+        System.out.println(gadi2.getModel());
+        System.out.println(gadi2.getYear());
 
         Rabbit rabbit = new Rabbit();
         rabbit.flee();
