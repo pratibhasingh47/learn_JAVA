@@ -145,9 +145,9 @@ public class Oops {
         System.out.println(hero2.age);*/
 
 
-        // Car carr = new Car();
-        // // Vehicle vehicle = new Vehicle();
-        // carr.go();
+        Car carr = new Car();
+        // Vehicle vehicle = new Vehicle();
+        carr.go();
 
         Car2 gadi = new Car2("Name" , "model",2024);
 
