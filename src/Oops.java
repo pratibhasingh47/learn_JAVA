@@ -149,7 +149,7 @@ public class Oops {
         // // Vehicle vehicle = new Vehicle();
         // carr.go();
 
-        // Car2 gadi = new Car2("Name" , "model",2024);
+        Car2 gadi = new Car2("Name" , "model",2024);
 
         // System.out.println(gadi.getMake());
         // System.out.println(gadi.getModel());
