@@ -1,3 +1,6 @@
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
 public class Oops {
     
     public static void main(String[] args) {
@@ -142,12 +145,97 @@ public class Oops {
         System.out.println(hero2.age);*/
 
 
-        Car carr = new Car();
-        // Vehicle vehicle = new Vehicle();
-        carr.go();
+        // Car carr = new Car();
+        // // Vehicle vehicle = new Vehicle();
+        // carr.go();
 
-        
+        // Car2 gadi = new Car2("Name" , "model",2024);
 
+        // System.out.println(gadi.getMake());
+        // System.out.println(gadi.getModel());
+        // System.out.println(gadi.getYear());
+
+        // Car2 gadi1 = new Car2("Mustang", "Camero", 2021);
+        // Car2 gadi2 = new Car2("Swift", "Camero", 2024);
+
+        // gadi2.copy(gadi1);
+
+        // System.out.println(gadi1);
+        // System.out.println(gadi2);
+
+        // System.out.println(gadi1.getMake());
+        // System.out.println(gadi1.getModel());
+        // System.out.println(gadi1.getYear());
+
+        // System.out.println(gadi2.getMake());
+        // System.out.println(gadi2.getModel());
+        // System.out.println(gadi2.getYear());
+
+        // Rabbit rabbit = new Rabbit();
+        // rabbit.flee();
+
+        // Hawl hawk = new Hawl();
+        // hawk.hunt();
+
+        // fish Fish  = new fish();
+        // Fish.hunt();
+        // Fish.flee();
+
+        // Car car = new Car();
+        // Bicycle bicycle = new Bicycle();
+        // Boat boat = new Boat();
+
+        // Vehicle[] racers = {car,bicycle,boat};
+        // car.go();
+        // bicycle.go();
+        // boat.go();
+
+        // for(Vehicle x : racers){
+        //     x.go();
+        // }
+
+        Scanner scanner = new Scanner(System.in);
+
+        // Animal animal ;
+        // System.out.println("What animal do you want");
+        // System.out.println("(1=dog) or (2=cat):");
+        // int ch = scanner.nextInt();
+        // if(ch ==1){
+        //     animal = new Dog();
+        //     animal.speak();
+        // }
+        // else if(ch ==2){
+        //     animal = new Cat();
+        //     animal.speak();
+        // }
+        // else{
+        //     animal = new Animal();
+        //     animal.speak();
+        // }
+
+        try{
+
+            System.out.println("Enter a whole no. to divide");
+            int num = scanner.nextInt();
+            System.out.println("Enter a whole no. to divide by");
+            int y = scanner.nextInt();
+    
+            int z = num/y;
+            System.out.println("result " + z);
+        }
+        catch(ArithmeticException e){
+            System.out.println("You can't divide by Zero ! Idiot");
+        }
+        catch(InputMismatchException e){
+            System.out.println("Plz enter a number!");
+        }
+        catch(Exception e){
+            System.out.println("Something went Wrong!");
+        }
+        finally{
+            System.out.println("This will always be printed");
+            scanner.close();
+        }
     }
 
 

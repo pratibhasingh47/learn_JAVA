@@ -16,7 +16,7 @@ public class Car extends Vehicle{
         System.out.println("You step on the brake");
     }
 
-    void go(){
+    public void go(){
         System.out.println("Driving...");
     }
 
@@ -28,4 +28,5 @@ public class Car extends Vehicle{
     // Car(String name){
     //     this.name = name;
     // }
+
 }
