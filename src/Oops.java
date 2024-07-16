@@ -151,9 +151,9 @@ public class Oops {
 
         Car2 gadi = new Car2("Name" , "model",2024);
 
-        // System.out.println(gadi.getMake());
-        // System.out.println(gadi.getModel());
-        // System.out.println(gadi.getYear());
+        System.out.println(gadi.getMake());
+        System.out.println(gadi.getModel());
+        System.out.println(gadi.getYear());
 
         Car2 gadi1 = new Car2("Mustang", "Camero", 2021);
         Car2 gadi2 = new Car2("Swift", "Camero", 2024);
