@@ -5,7 +5,7 @@ public class Oops {
     
     public static void main(String[] args) {
 
-        /*String name = "Broo";
+        String name = "Broo";
         int age = 21;
         hello(name,age);
 
@@ -142,7 +142,7 @@ public class Oops {
 
         System.out.println(hero2.name);
         System.out.println(hero2.Power);
-        System.out.println(hero2.age);*/
+        System.out.println(hero2.age);
 
 
         Car carr = new Car();
