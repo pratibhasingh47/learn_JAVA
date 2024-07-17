@@ -38,7 +38,9 @@ public class Gui {
         // MyFrame myframe = new MyFrame();
         // Border border = BorderFactory.createLineBorder(Color.green,3);
 
-        /*JLabel label = new JLabel();
+        // -----------------------------------------------------
+
+        JLabel label = new JLabel();
         label.setText("How you doing ?");
         label.setIcon(image);
         label.setHorizontalTextPosition(JLabel.CENTER);
@@ -51,7 +53,9 @@ public class Gui {
         label.setBorder(border);
         label.setVerticalAlignment(JLabel.CENTER);
         label.setHorizontalAlignment(JLabel.CENTER);
-        label.setBounds(0, 0, 250, 250); */
+        label.setBounds(0, 0, 250, 250); 
+
+        // ---------------------------------------------------
 
         JLabel l = new JLabel();
         l.setText("Hiii");
@@ -68,6 +72,8 @@ public class Gui {
         panel3.setBackground(Color.yellow);
         panel3.setBounds(0, 250, 500, 250);
         panel3.setLayout(new BorderLayout());
+
+        // --------------------------------------------
 
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
