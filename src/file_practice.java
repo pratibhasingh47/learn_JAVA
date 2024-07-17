@@ -11,45 +11,45 @@ public class file_practice {
     
     public static void main(String[] args) throws UnsupportedAudioFileException, IOException, LineUnavailableException {
         
-        // File file = new File("java_practice.txt.txt");
-        // File file = new File("C:\\Users\\DELL\\Desktop");
+        File file = new File("java_practice.txt.txt");
+        File file = new File("C:\\Users\\DELL\\Desktop");
 
-        // if(file.exists()){
-        //     System.out.println("The file exists");
-        //     System.out.println(file.getPath());
-        //     System.out.println(file.getAbsolutePath());
-        //     System.out.println(file.isFile());
-        //     // file.delete();
-        // }
-        // else{
-        //     System.out.println("The filedoes not exist");
-        // }
+        if(file.exists()){
+            System.out.println("The file exists");
+            System.out.println(file.getPath());
+            System.out.println(file.getAbsolutePath());
+            System.out.println(file.isFile());
+            // file.delete();
+        }
+        else{
+            System.out.println("The filedoes not exist");
+        }
 
-        // try{
-        //     FileWriter writer = new FileWriter("poem.txt");
-        //     writer.write("Roses are Red \nVoilets are blue");
-        //     writer.append("Poem by bro");
-        //     writer.close();
-        // }
-        // catch(IOException e){
-        //     e.printStackTrace();
-        // }
+        try{
+            FileWriter writer = new FileWriter("poem.txt");
+            writer.write("Roses are Red \nVoilets are blue");
+            writer.append("Poem by bro");
+            writer.close();
+        }
+        catch(IOException e){
+            e.printStackTrace();
+        }
 
-        // try{
-        //     FileReader reader = new FileReader("poem.txt");
-        //     int data = reader.read();
-        //     while(data != -1){
-        //         System.out.println((char)data);
-        //         data = reader.read();
-        //     }
-        //     reader.close();
-        // }
-        // catch(FileNotFoundException e){
-        //     e.printStackTrace();
-        // }
-        // catch(IOException e){
-        //     e.printStackTrace();
-        // }
+        try{
+            FileReader reader = new FileReader("poem.txt");
+            int data = reader.read();
+            while(data != -1){
+                System.out.println((char)data);
+                data = reader.read();
+            }
+            reader.close();
+        }
+        catch(FileNotFoundException e){
+            e.printStackTrace();
+        }
+        catch(IOException e){
+            e.printStackTrace();
+        }
 
         Scanner scanner = new Scanner(System.in);
         File file = new File("xyz.wav");
@@ -77,6 +77,10 @@ public class file_practice {
 
                 case ("R"):
                     clip.setMicrosecondPosition(0);
+                    break;
+
+                case ("Q"):
+                    clip.close();
                     break;
             
                 default:
