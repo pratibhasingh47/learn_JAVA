@@ -11,7 +11,7 @@ import javax.swing.JButton;
 public class MyFrame extends JFrame implements ActionListener {
     JButton button;
 
-    /*MyFrame() {
+    MyFrame() {
         this.setTitle("Java JFrame Title");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setResizable(false);
@@ -21,7 +21,9 @@ public class MyFrame extends JFrame implements ActionListener {
         ImageIcon image = new ImageIcon("C:\\Users\\DELL\\Pictures\\Camera Roll");
         this.setIconImage(image.getImage());
         this.getContentPane().setBackground(Color.MAGENTA);
-    }*/
+    }
+
+    // ----------------------------------------------------------------------
 
     MyFrame(){
 
