@@ -81,7 +81,7 @@ public class Gui {
         // frame.add(panel3);
         // frame.pack();
 
-        // MyFrame frame = new MyFrame();
+        MyFrame frame = new MyFrame();
 
         JPanel panel_1 = new JPanel();        
         JPanel panel_2 = new JPanel();        
