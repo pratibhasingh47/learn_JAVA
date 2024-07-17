@@ -24,12 +24,12 @@ public class Gui {
         // double height = Double.parseDouble(JOptionPane.showInputDialog("Enter your height"));
         // JOptionPane.showMessageDialog(null, "You age is " + height);
 
-        /*JFrame frame = new JFrame();
+        JFrame frame = new JFrame();
         frame.setTitle("Java JFrame Title");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setResizable(false);
         frame.setSize(420,420);
-        frame.setVisible(true);*/
+        frame.setVisible(true);
 
         ImageIcon image = new ImageIcon("C:Users\\DELL\\Pictures\\Camera Roll");
         frame.setIconImage(image.getImage());
