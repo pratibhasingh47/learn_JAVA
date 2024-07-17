@@ -74,12 +74,12 @@ public class Gui {
         frame.setSize(500,500);
         frame.setLayout(new BorderLayout(10,10));
         frame.setVisible(true);
-        // frame.add(label);
-        // panel1.add(l);
-        // frame.add(panel1);
-        // frame.add(panel2);
-        // frame.add(panel3);
-        // frame.pack();
+        frame.add(label);
+        panel1.add(l);
+        frame.add(panel1);
+        frame.add(panel2);
+        frame.add(panel3);
+        frame.pack();
 
         MyFrame frame = new MyFrame();
 
