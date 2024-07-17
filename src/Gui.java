@@ -24,6 +24,8 @@ public class Gui {
         // double height = Double.parseDouble(JOptionPane.showInputDialog("Enter your height"));
         // JOptionPane.showMessageDialog(null, "You age is " + height);
 
+        // --------------------------------------------------------------
+
         JFrame frame = new JFrame();
         frame.setTitle("Java JFrame Title");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
