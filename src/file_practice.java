@@ -12,7 +12,7 @@ public class file_practice {
     public static void main(String[] args) throws UnsupportedAudioFileException, IOException, LineUnavailableException {
         
         File file = new File("java_practice.txt.txt");
-        File file = new File("C:\\Users\\DELL\\Desktop");
+        // File file = new File("C:\\Users\\DELL\\Desktop");
 
         if(file.exists()){
             System.out.println("The file exists");
@@ -52,8 +52,8 @@ public class file_practice {
         }
 
         Scanner scanner = new Scanner(System.in);
-        File file = new File("xyz.wav");
-        AudioInputStream audioStream = AudioSystem.getAudioInputStream(file);
+        File file_2 = new File("xyz.wav");
+        AudioInputStream audioStream = AudioSystem.getAudioInputStream(file_2);
 
         Clip clip = AudioSystem.getClip();
         clip.open(audioStream);
