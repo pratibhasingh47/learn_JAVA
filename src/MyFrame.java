@@ -23,7 +23,7 @@ public class MyFrame extends JFrame implements ActionListener {
         this.getContentPane().setBackground(Color.MAGENTA);
     }*/
 
-    /*MyFrame(){
+    MyFrame(){
 
         JButton button = new JButton();
         button.setBounds(200, 100, 200, 100);
@@ -44,7 +44,7 @@ public class MyFrame extends JFrame implements ActionListener {
         this.setSize(500, 500);
         this.setVisible(true);
         this.add(button);
-    }*/
+    }
 
     public void actionPerformed(ActionEvent e){
         if(e.getSource() == button){
