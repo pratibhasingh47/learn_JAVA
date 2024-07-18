@@ -59,21 +59,21 @@ public class Gui {
 
         // // ---------------------------------------------------
 
-        // JLabel l = new JLabel();
-        // l.setText("Hiii");
+        JLabel l = new JLabel();
+        l.setText("Hiii");
 
-        // JPanel panel1 = new JPanel();
-        // panel1.setBackground(Color.CYAN);
-        // panel1.setBounds(0, 0, 250, 250);
+        JPanel panel1 = new JPanel();
+        panel1.setBackground(Color.CYAN);
+        panel1.setBounds(0, 0, 250, 250);
 
-        // JPanel panel2 = new JPanel();
-        // panel2.setBounds(250, 0, 250, 250);
-        // panel2.setBackground(Color.PINK);
+        JPanel panel2 = new JPanel();
+        panel2.setBounds(250, 0, 250, 250);
+        panel2.setBackground(Color.PINK);
 
-        // JPanel panel3 = new JPanel();
-        // panel3.setBackground(Color.yellow);
-        // panel3.setBounds(0, 250, 500, 250);
-        // panel3.setLayout(new BorderLayout());
+        JPanel panel3 = new JPanel();
+        panel3.setBackground(Color.yellow);
+        panel3.setBounds(0, 250, 500, 250);
+        panel3.setLayout(new BorderLayout());
 
         // --------------------------------------------
 
