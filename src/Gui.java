@@ -24,7 +24,7 @@ public class Gui {
         // double height = Double.parseDouble(JOptionPane.showInputDialog("Enter your height"));
         // JOptionPane.showMessageDialog(null, "You age is " + height);
 
-        // // --------------------------------------------------------------
+        // --------------------------------------------------------------
 
         // JFrame frame = new JFrame();
         // frame.setTitle("Java JFrame Title");
@@ -40,7 +40,7 @@ public class Gui {
         // MyFrame myframe = new MyFrame();
         // Border border = BorderFactory.createLineBorder(Color.green,3);
 
-        // // -----------------------------------------------------
+        // -----------------------------------------------------
 
         // JLabel label = new JLabel();
         // label.setText("How you doing ?");
@@ -57,7 +57,7 @@ public class Gui {
         // label.setHorizontalAlignment(JLabel.CENTER);
         // label.setBounds(0, 0, 250, 250); 
 
-        // // ---------------------------------------------------
+        // ---------------------------------------------------
 
         JLabel l = new JLabel();
         l.setText("Hiii");
