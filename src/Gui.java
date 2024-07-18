@@ -77,19 +77,19 @@ public class Gui {
 
         // // --------------------------------------------
 
-        // JFrame frame = new JFrame();
-        // frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        // frame.setSize(500,500);
-        // frame.setLayout(new BorderLayout(10,10));
-        // frame.setVisible(true);
-        // frame.add(label);
-        // panel1.add(l);
-        // frame.add(panel1);
-        // frame.add(panel2);
-        // frame.add(panel3);
-        // frame.pack();
+        JFrame frame = new JFrame();
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setSize(500,500);
+        frame.setLayout(new BorderLayout(10,10));
+        frame.setVisible(true);
+        frame.add(label);
+        panel1.add(l);
+        frame.add(panel1);
+        frame.add(panel2);
+        frame.add(panel3);
+        frame.pack();
 
-        // MyFrame frame = new MyFrame();
+        MyFrame frame = new MyFrame();
 
         JPanel panel_1 = new JPanel();        
         JPanel panel_2 = new JPanel();        
