@@ -75,7 +75,7 @@ public class Gui {
         // panel3.setBounds(0, 250, 500, 250);
         // panel3.setLayout(new BorderLayout());
 
-        // // --------------------------------------------
+        // --------------------------------------------
 
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
