@@ -26,19 +26,19 @@ public class Gui {
 
         // --------------------------------------------------------------
 
-        // JFrame frame = new JFrame();
-        // frame.setTitle("Java JFrame Title");
-        // frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        // frame.setResizable(false);
-        // frame.setSize(420,420);
-        // frame.setVisible(true);
+        JFrame frame = new JFrame();
+        frame.setTitle("Java JFrame Title");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setResizable(false);
+        frame.setSize(420,420);
+        frame.setVisible(true);
 
-        // ImageIcon image = new ImageIcon("C:Users\\DELL\\Pictures\\Camera Roll");
-        // frame.setIconImage(image.getImage());
-        // frame.getContentPane().setBackground(Color.MAGENTA);
+        ImageIcon image = new ImageIcon("C:Users\\DELL\\Pictures\\Camera Roll");
+        frame.setIconImage(image.getImage());
+        frame.getContentPane().setBackground(Color.MAGENTA);
 
-        // MyFrame myframe = new MyFrame();
-        // Border border = BorderFactory.createLineBorder(Color.green,3);
+        MyFrame myframe = new MyFrame();
+        Border border = BorderFactory.createLineBorder(Color.green,3);
 
         // -----------------------------------------------------
 
