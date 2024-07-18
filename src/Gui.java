@@ -91,29 +91,29 @@ public class Gui {
 
         // MyFrame frame = new MyFrame();
 
-        // JPanel panel_1 = new JPanel();        
-        // JPanel panel_2 = new JPanel();        
-        // JPanel panel_3 = new JPanel();        
-        // JPanel panel_4 = new JPanel();        
-        // JPanel panel_5 = new JPanel();  
+        JPanel panel_1 = new JPanel();        
+        JPanel panel_2 = new JPanel();        
+        JPanel panel_3 = new JPanel();        
+        JPanel panel_4 = new JPanel();        
+        JPanel panel_5 = new JPanel();  
         
-        // panel_1.setBackground(Color.RED);
-        // panel_2.setBackground(Color.YELLOW);
-        // panel_3.setBackground(Color.ORANGE);
-        // panel_4.setBackground(Color.CYAN);
-        // panel_5.setBackground(Color.PINK);
+        panel_1.setBackground(Color.RED);
+        panel_2.setBackground(Color.YELLOW);
+        panel_3.setBackground(Color.ORANGE);
+        panel_4.setBackground(Color.CYAN);
+        panel_5.setBackground(Color.PINK);
 
-        // panel_1.setPreferredSize(new Dimension(100,50));
-        // panel_2.setPreferredSize(new Dimension(100,100));
-        // panel_3.setPreferredSize(new Dimension(100,100));
-        // panel_4.setPreferredSize(new Dimension(100,100));
-        // panel_5.setPreferredSize(new Dimension(100,100));
+        panel_1.setPreferredSize(new Dimension(100,50));
+        panel_2.setPreferredSize(new Dimension(100,100));
+        panel_3.setPreferredSize(new Dimension(100,100));
+        panel_4.setPreferredSize(new Dimension(100,100));
+        panel_5.setPreferredSize(new Dimension(100,100));
 
-        // frame.add(panel_1,BorderLayout.NORTH);
-        // frame.add(panel_2,BorderLayout.WEST);
-        // frame.add(panel_3,BorderLayout.EAST);
-        // frame.add(panel_4,BorderLayout.SOUTH);
-        // frame.add(panel_5,BorderLayout.CENTER);
+        frame.add(panel_1,BorderLayout.NORTH);
+        frame.add(panel_2,BorderLayout.WEST);
+        frame.add(panel_3,BorderLayout.EAST);
+        frame.add(panel_4,BorderLayout.SOUTH);
+        frame.add(panel_5,BorderLayout.CENTER);
 
         LaunchPage launchPage = new LaunchPage();
 
