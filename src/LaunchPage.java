@@ -21,12 +21,10 @@ public class LaunchPage implements ActionListener {
     }
     @Override
     public void actionPerformed(ActionEvent e) {
-        // TODO Auto-generated method stub
         // throw new UnsupportedOperationException("Unimplemented method 'actionPerformed'");
 
         if(e.getSource() == mybutton){
             frame.dispose();
-            NewWindow myWindow = new NewWindow();
         }
     }
 }
