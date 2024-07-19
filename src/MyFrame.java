@@ -32,7 +32,6 @@ public class MyFrame extends JFrame implements ActionListener {
         this.setIconImage(image.getImage());
         this.getContentPane().setBackground(Color.MAGENTA);
     }
-
     // ----------------------------------------------------------------------
 
     MyFrame(){
