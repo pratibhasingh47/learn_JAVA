@@ -125,9 +125,9 @@ public class Gui {
 
         JOptionPane.showConfirmDialog(null, "What language you code in ?", "Question", JOptionPane.YES_NO_CANCEL_OPTION);
         JOptionPane.showInputDialog("What is your name");
-        JOptionPane.showOptionDialog(null, "You are awesome", "Secret message", JOptionPane.YES_NO_OPTION, 0, null, null, null);*/
+        JOptionPane.showOptionDialog(null, "You are awesome", "Secret message", JOptionPane.YES_NO_OPTION, 0, null, null, null);
 
-        // SliderDemo sliderDemo = new SliderDemo();
+        SliderDemo sliderDemo = new SliderDemo();
 
         ProgressBarDemo demo = new ProgressBarDemo();
 
