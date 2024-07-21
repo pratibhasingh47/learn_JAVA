@@ -15,7 +15,7 @@ public class Gui {
 
     public static void main(String[] args) {
 
-        String name = JOptionPane.showInputDialog("Enter your name");
+        /*String name = JOptionPane.showInputDialog("Enter your name");
         JOptionPane.showMessageDialog(null, "Hello " + name);
 
         int age = Integer.parseInt(JOptionPane.showInputDialog("Enter your age"));
@@ -125,9 +125,11 @@ public class Gui {
 
         JOptionPane.showConfirmDialog(null, "What language you code in ?", "Question", JOptionPane.YES_NO_CANCEL_OPTION);
         JOptionPane.showInputDialog("What is your name");
-        JOptionPane.showOptionDialog(null, "You are awesome", "Secret message", JOptionPane.YES_NO_OPTION, 0, null, null, null);
+        JOptionPane.showOptionDialog(null, "You are awesome", "Secret message", JOptionPane.YES_NO_OPTION, 0, null, null, null);*/
 
-        SliderDemo sliderDemo = new SliderDemo();
+        // SliderDemo sliderDemo = new SliderDemo();
+
+        ProgressBarDemo demo = new ProgressBarDemo();
 
     }
 }
