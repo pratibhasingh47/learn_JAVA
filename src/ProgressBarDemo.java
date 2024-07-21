@@ -11,6 +11,7 @@ public class ProgressBarDemo {
         bar.setValue(0);
         bar.setBounds(0,0,420,50);
         bar.setStringPainted(true);
+        bar.setFont(new Font("MV Boli",Font.BOLD,25));
 
         frame.add(bar);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -27,12 +28,13 @@ public class ProgressBarDemo {
         while(counter <= 100){
             bar.setValue(counter);
             try{
-                Thread.sleep(1000);
+                Thread.sleep(50);
             }
             catch(InterruptedException e){
                 e.printStackTrace();
             }
-            counter += 10;
+            counter += 1;
         }
+        bar.setString("Done! ");
     }
 }
