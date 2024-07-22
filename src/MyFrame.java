@@ -73,6 +73,8 @@ public class MyFrame extends JFrame implements ActionListener {
 
     }
 
+    // ----------------------------------------------------------------------
+
     MyFrame(){
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLayout(new FlowLayout());
@@ -93,6 +95,7 @@ public class MyFrame extends JFrame implements ActionListener {
         this .setVisible(true);
     }
 
+    // ----------------------------------------------------------------------
 
     MyFrame(){
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
