@@ -130,6 +130,5 @@ public class Gui {
         SliderDemo sliderDemo = new SliderDemo();
 
         ProgressBarDemo demo = new ProgressBarDemo();
-
     }
 }
