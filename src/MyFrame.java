@@ -10,12 +10,14 @@ import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
+import java.io.File;
 
 import javax.swing.BorderFactory;
 import javax.swing.ButtonGroup;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
+import javax.swing.JFileChooser;
 
 public class MyFrame extends JFrame implements ActionListener {
     // JButton button;
@@ -156,6 +158,35 @@ public class MyFrame extends JFrame implements ActionListener {
         this.setJMenuBar(menuBar);
         this.setVisible(true);
 
+    }
+
+    // ----------------------------------------------------------------------
+
+    MyFrame(){
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setLayout(new FlowLayout());
+
+        JButton button = new JButton("Select File");
+        button.addActionListener(this);
+
+        this.add(button);
+        this.pack();
+        this.setVisible(true);
+
+    }
+
+    @Override
+    public void actionPerformed(ActionEvent e1){
+        if(.getSource() == button){
+            JFileChooser fileChooser = new JFileChooser();
+
+            int response = fileChooser.showOpenDialog(null);
+
+            if(response == JFileChooser.APPROVE_OPTION){
+                JFileChooser filechoser;
+                File file = new File(filechoser.getSelectedFile().getAbsoultePath());
+            }
+        }
     }
 
     @Override
