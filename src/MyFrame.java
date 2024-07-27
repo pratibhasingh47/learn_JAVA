@@ -20,7 +20,7 @@ import javax.swing.JComboBox;
 import javax.swing.JFileChooser;
 
 public class MyFrame extends JFrame implements ActionListener {
-    
+
     // JButton button;
     JRadioButton pizzabtn;
     JRadioButton burgerbtn;
@@ -72,7 +72,6 @@ public class MyFrame extends JFrame implements ActionListener {
         this.setSize(500, 500);
         this.setVisible(true);
         this.add(button);
-
 
     }
 
