@@ -20,6 +20,7 @@ public class ProgressBarDemo {
         frame.setLayout(null);
         frame.setVisible(true);
 
+        
         fill();
     }
 
