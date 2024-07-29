@@ -128,6 +128,7 @@ public class Gui {
         JOptionPane.showOptionDialog(null, "You are awesome", "Secret message", JOptionPane.YES_NO_OPTION, 0, null, null, null);
 
         SliderDemo sliderDemo = new SliderDemo();
+        
 
         ProgressBarDemo demo = new ProgressBarDemo();
     }
