@@ -116,7 +116,6 @@ public class Gui {
         frame.add(panel_5,BorderLayout.CENTER);
 
         LaunchPage launchPage = new LaunchPage();
-        
 
         JOptionPane.showMessageDialog(null, "This is not useful", "TITLE", JOptionPane.PLAIN_MESSAGE);
         JOptionPane.showMessageDialog(null, "This is not useful", "TITLE", JOptionPane.INFORMATION_MESSAGE);
